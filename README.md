@@ -18,6 +18,13 @@ sudo nixos-rebuild switch -I nixos-config=./system/configuration.nix
 # bin
 https://starship.rs
 
+check out this wayland wm   
+https://github.com/hyprwm/Hyprland
+
+https://github.com/hyprwm/Hyprland/tree/main/hyprctl
+
+https://github.com/notusknot?tab=repositories
+
 
 
 
@@ -50,3 +57,9 @@ users.users.<name?>.hashedPassword
 
            Declared by:
                <nixpkgs/nixos/modules/config/users-groups.nix>
+
+
+
+
+dotfiles
+https://discourse.nixos.org/t/how-to-manage-my-dotfiles/16608/2
