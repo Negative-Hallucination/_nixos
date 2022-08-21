@@ -107,6 +107,11 @@ installation(){
   nixos-generate-config --root /mnt
 
 
+  nixos-install
+
+
+
+
 }
 
 
