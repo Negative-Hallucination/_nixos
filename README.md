@@ -4,8 +4,14 @@ https://www.youtube.com/watch?v=Dy3KHMuDNS8&t=803s
 homemanager 
 https://youtu.be/Dy3KHMuDNS8?t=483
 
+// to add as a module
+ nix-channel --add https://github.com/nix-community/home-manager/archive/release-22.05.tar.gz home-manager
+ nix-channel --update
+ 
+ // imports = [ <home-manager/nixos> ];
 
-
+rolbacks
+home-manager generations
 
 # to force a configuration
 sudo nixos-rebuild switch -I nixos-config=./system/configuration.nix
@@ -63,3 +69,9 @@ users.users.<name?>.hashedPassword
 
 dotfiles
 https://discourse.nixos.org/t/how-to-manage-my-dotfiles/16608/2
+
+
+
+filesystem
+zfs
+https://github.com/zfsonlinux/zfs-auto-snapshot
