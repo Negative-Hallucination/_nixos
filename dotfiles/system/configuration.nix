@@ -100,8 +100,8 @@
   # Define a user account. Don't forget to set a password with ‘passwd’.
   users.users.spaceface = {
     isNormalUser = true;
-    initialPassword = "Silencio42";
-    # hashedPassword = "$6$FFSV7WMGeF.1Z..m$8jXhcUFowGtpyjeZItpZ1Tj7meHxxkVa19DPQcMFbmnNtirUYk75ol.wLMEJG16vEPUyThpbhX0.oPA6pmh851"; #silencio
+    initialPassword = "";
+    # hashedPassword = "";
     extraGroups = [ "wheel" ]; # Enable ‘sudo’ for the user.
     packages = with pkgs; [
       firefox
@@ -162,4 +162,5 @@ environment.sessionVariables.NIXOS_OZONE_WL = "1";
 
 
 }
+
 
