@@ -75,3 +75,24 @@ https://discourse.nixos.org/t/how-to-manage-my-dotfiles/16608/2
 filesystem
 zfs
 https://github.com/zfsonlinux/zfs-auto-snapshot
+
+
+
+
+
+
+
+notes for my system
+
+
+cli apps
+
+file manager: broot
+https://github.com/Canop/broot/tree/master/src
+
+
+or clex:
+https://github.com/xitop/clex
+
+joshuto?
+cfiles?
