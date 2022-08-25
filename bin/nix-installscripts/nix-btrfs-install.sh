@@ -94,12 +94,14 @@ installation(){
   # Mount the partitions and subvolumes
   echo "────────────────────── mounting disks "
   mount -o compress=zstd,subvol=root "${btrfsdevice}" /mnt
-  mkdir /mnt/{home,nix}
+
+  mkdir -p /mnt/{home,nix}
+
   mount -o compress=zstd,subvol=home "${btrfsdevice}" /mnt/home
   mount -o compress=zstd,noatime,subvol=nix "${btrfsdevice}" /mnt/nix
   mount -o subvol=swap "${btrfsdevice}" /swap
 
-  mkdir /mnt/boot
+  mkdir -p /mnt/boot
   mount "${bootdevice}" /mnt/boot
 
 
@@ -107,7 +109,7 @@ installation(){
   nixos-generate-config --root /mnt
 
 
-  nixos-install
+  # nixos-install
 
 
 
