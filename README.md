@@ -96,3 +96,9 @@ https://github.com/xitop/clex
 
 joshuto?
 cfiles?
+
+
+uefi boot
+cp uefi
+bootctl install --graceful 
+
